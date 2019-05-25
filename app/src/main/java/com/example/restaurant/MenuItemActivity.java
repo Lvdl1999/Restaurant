@@ -6,6 +6,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
 
+import com.example.restaurant.MenuItem;
+import com.example.restaurant.R;
+
 import org.w3c.dom.Text;
 
 public class MenuItemActivity extends AppCompatActivity {
