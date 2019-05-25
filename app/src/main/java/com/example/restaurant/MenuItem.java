@@ -1,6 +1,8 @@
 package com.example.restaurant;
 
-public class MenuItem {
+import java.io.Serializable;
+
+public class MenuItem implements Serializable {
 
     private String menu_description, menu_name, sort_menu, url;
     private Double price;
@@ -19,39 +21,24 @@ public class MenuItem {
         return menu_description;
     }
 
-    public void setMenu_description(String menu_description) {
-        this.menu_description = menu_description;
-    }
-
     public String getMenu_name() {
         return menu_name;
-    }
-
-    public void setMenu_name(String menu_name) {
-        this.menu_name = menu_name;
     }
 
     public String getSort_menu() {
         return sort_menu;
     }
 
-    public void setSort_menu(String sort_menu) {
-        this.sort_menu = sort_menu;
-    }
-
     public String getUrl() {
         return url;
-    }
-
-    public void setUrl(String url) {
-        this.url = url;
     }
 
     public Double getPrice() {
         return price;
     }
 
-    public void setPrice(Double price) {
-        this.price = price;
+    public void setMenuName(String menu_name){
+        this.menu_name = menu_name;
     }
+
 }
