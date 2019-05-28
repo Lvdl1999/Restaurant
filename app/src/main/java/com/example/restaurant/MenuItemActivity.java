@@ -27,7 +27,7 @@ public class MenuItemActivity extends AppCompatActivity {
 
         name.setText(menuItem.getMenu_name());
         description.setText(menuItem.getMenu_description());
-        price.setText(menuItem.getPrice().toString());
+        price.setText("€" + menuItem.getPrice().toString());
 
 
 

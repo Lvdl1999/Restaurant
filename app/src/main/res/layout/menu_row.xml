@@ -1,29 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="140dp"
-        android:layout_height="114dp"
+        android:layout_width="116dp"
+        android:layout_height="101dp"
         android:layout_weight="1"
         app:srcCompat="@drawable/gerecht1" />
 
     <TextView
         android:id="@+id/price_dish"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="151dp"
+        android:layout_height="101dp"
         android:layout_weight="1"
-        android:text="TextView" />
+        android:background="@drawable/textview_border"
+        android:fontFamily="casual"
+        android:padding="10dp"
+        android:text="TextView"
+        android:textSize="14sp" />
 
     <TextView
         android:id="@+id/name_dish"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="129dp"
+        android:layout_height="101dp"
         android:layout_weight="1"
-        android:text="TextView" />
+        android:background="@drawable/textview_border"
+        android:fontFamily="casual"
+        android:padding="10dp"
+        android:text="TextView"
+        android:textSize="14sp" />
 
     <ImageView
         android:id="@+id/photo_dish"

@@ -7,8 +7,12 @@
 
     <TextView
         android:id="@+id/test"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="503dp"
+        android:layout_height="135dp"
         android:layout_weight="1"
-        android:text="TextView" />
+        android:background="@drawable/textview_border"
+        android:fontFamily="casual"
+        android:padding="10dp"
+        android:text="TextView"
+        android:textSize="30sp" />
 </LinearLayout>

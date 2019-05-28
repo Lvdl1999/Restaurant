@@ -40,7 +40,7 @@ public class MenuAdapter extends ArrayAdapter {
         String price = sort_dish.getPrice().toString();
 
         name_dish.setText(menu);
-        price_dish.setText(price);
+        price_dish.setText("€" + price);
 
 
 
