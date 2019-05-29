@@ -29,3 +29,6 @@ The app will show details about the chosen dish containing:
 
 <img width="300" alt="image" src="https://user-images.githubusercontent.com/47352487/58552981-ffda5900-8213-11e9-85ee-b69bafd91480.png">
 
+<img width="300" alt="image" src="https://user-images.githubusercontent.com/47352487/58553222-a9b9e580-8214-11e9-9624-09fb6d39e4f9.png">
+
+<img width="300" alt="image" src="https://user-images.githubusercontent.com/47352487/58553259-c2c29680-8214-11e9-92b0-ae816c7d7db4.png">
