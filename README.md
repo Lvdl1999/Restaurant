@@ -23,3 +23,9 @@ The app will show details about the chosen dish containing:
 - The price in euro's 
 
 <img width="150" alt="image" src="https://user-images.githubusercontent.com/47352487/58552858-ad993800-8213-11e9-88dc-84c248acdda9.png">
+
+
+### Landscape variation
+
+<img width="300" alt="image" src="https://user-images.githubusercontent.com/47352487/58552981-ffda5900-8213-11e9-85ee-b69bafd91480.png">
+
