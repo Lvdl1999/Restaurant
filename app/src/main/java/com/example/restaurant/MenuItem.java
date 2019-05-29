@@ -25,20 +25,11 @@ public class MenuItem implements Serializable {
         return menu_name;
     }
 
-    public String getSort_menu() {
-        return sort_menu;
-    }
-
-    public String getUrl() {
+    public String getImageUrl() {
         return url;
     }
 
     public Double getPrice() {
         return price;
     }
-
-    public void setMenuName(String menu_name){
-        this.menu_name = menu_name;
-    }
-
 }
